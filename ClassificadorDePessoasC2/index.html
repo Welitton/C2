@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reconhecimento de Pessoas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Reconhecimento de Pessoas</h1>
+    <p id="status">Carregando modelo...</p>
+    <label class="upload-label" for="upload">Escolha uma imagem</label>
+    <input type="file" id="upload" accept="image/*" hidden />
+
+    <canvas id="canvas"></canvas>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+  <script src="ui.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
