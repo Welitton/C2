@@ -1,0 +1,39 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: fit-content;
+}
+
+.upload-label {
+  background: #007BFF;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  display: inline-block;
+  transition: background 0.3s;
+}
+.upload-label:hover {
+  background: #0056b3;
+}
+#canvas {
+  margin-top: 1rem;
+  border: 2px solid #ccc;
+  max-width: 100%;
+}
+#status {
+  margin: 0.5rem 0;
+  color: #555;
+}
